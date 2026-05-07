@@ -28,7 +28,7 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 | Area | Repo | Status |
 |---|---|---|
-| LLM Security & Threat Modeling | `llm-security-playbook` | In progress |
+| LLM Security & Threat Modeling | `llm-security-playbook` | Available |
 | LLM Evaluation Framework | `llm-eval-framework` | In progress |
 | Advanced RAG Pipeline | `rag-pipeline` | In progress |
 | Multi-Agent System (LangGraph) | `multi-agent-system` | Coming soon |
