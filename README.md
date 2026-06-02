@@ -31,7 +31,7 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 | LLM Security & Threat Modeling | `llm-security-playbook` | Available |
 | LLM Evaluation Framework | `llm-eval-framework` | In progress |
 | Advanced RAG Pipeline | `rag-pipeline` | In progress |
-| Multi-Agent System (LangGraph) | `multi-agent-system` | Coming soon |
+| Multi-Agent System (LangGraph) | `multi-agent-system` | In progress |
 | LLM Guardrails & Output Validation | `llm-guardrails` | Coming soon |
 | Production RAG API | `production-rag-api` | Coming soon |
 | Enterprise RAG System (capstone) | `enterprise-rag-system` | Coming soon |
