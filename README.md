@@ -28,17 +28,17 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 | Area | Repo | Status |
 |---|---|---|
-| LLM Security & Threat Modeling | `llm-security-playbook` | Available |
-| LLM Evaluation Framework | `llm-eval-framework` | In progress |
-| Advanced RAG Pipeline | `rag-pipeline` | In progress |
-| Multi-Agent System (LangGraph) | `multi-agent-system` | In progress |
-| LLM Guardrails & Output Validation | `llm-guardrails` | Coming soon |
-| Production RAG API | `production-rag-api` | Coming soon |
-| Enterprise RAG System (capstone) | `enterprise-rag-system` | Coming soon |
+| 🔐 LLM Security & Threat Modeling | [`llm-security-playbook`](https://github.com/pulkitkushwaha/llm-security-playbook) | ✅ Available |
+| 📊 LLM Evaluation Framework | [`llm-eval-framework`](https://github.com/pulkitkushwaha/llm-eval-framework) | ✅ Complete |
+| 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/pulkitkushwaha/rag-pipeline) | 🟡 In progress |
+| 🤖 Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/pulkitkushwaha/multi-agent-system) | 🟡 In progress |
+| 🛡️ LLM Guardrails & Output Validation | [`llm-guardrails`](https://github.com/pulkitkushwaha/llm-guardrails) | 🟡 In progress |
+| 🚀 Production RAG API | [`production-rag-api`](https://github.com/pulkitkushwaha/production-rag-api) | ⬜ Coming soon |
+| 🏆 Enterprise RAG System (capstone) | [`enterprise-rag-system`](https://github.com/pulkitkushwaha/enterprise-rag-system) | ⬜ Coming soon |
 
 ---
 
-## Tech stack
+## 🛠️ Tech stack
 
 **LLM & AI**
 `Azure OpenAI` `LangChain` `LangGraph` `FAISS` `Azure AI Search` `Copilot Studio` `Mistral` `HuggingFace` `RAGAS` `Prompt Engineering`
@@ -54,7 +54,7 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 ---
 
-## Production projects (at Cognizant)
+## 🏗️ Production projects (at Cognizant)
 
 ### AI-Driven Complaint Screening System
 > Multi-agent architecture (Extraction → Classification → Reporting) for automated OIG complaint screening. Built with Microsoft Copilot Studio, Azure OpenAI, and Power Automate. Enforced policy alignment via deterministic rules and strict JSON schemas.
@@ -75,19 +75,20 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 ---
 
-## Areas I go deep on
+## 📌 Areas I go deep on
 
-- **Advanced RAG** — HyDE, reranking, metadata filtering, hybrid graph + vector retrieval
-- **Agentic AI** — LangGraph orchestration, agent memory, multi-agent failure modes
-- **LLM Security** — Prompt injection, OWASP LLM Top 10, red-teaming, guardrails
-- **Eval & Observability** — RAGAS metrics, LangSmith tracing, production monitoring
-- **Cost & Performance** — Semantic caching, prompt compression, model routing
+- **Advanced RAG** — HyDE, reranking, metadata filtering, GraphRAG-lite, multi-doc retrieval
+- **Agentic AI** — LangGraph orchestration, planner/retriever/synthesizer agents, agent memory, failure modes
+- **LLM Security** — Prompt injection (direct + indirect), OWASP LLM Top 10, system prompt extraction, red-teaming, mitigation patterns
+- **Eval & Observability** — Custom metrics, RAGAS integration, CI/CD eval gates, failure analysis
+- **LLM Guardrails** — PII detection + redaction, toxicity filtering, topic scope validation
 
 ---
 
-## Certifications
+## 🎓 Certifications
+
 - Microsoft Certified: Azure AI Engineer Associate (AI-102)
-- Microsoft Certified: Azure Data Scientist Associate certification (DP-100)
+- Microsoft Certified: Azure Data Scientist Associate (DP-100)
 - Databricks Generative AI Engineer Associate
 - Google Cloud Certified: Generative AI Leader
 - Microsoft Certified: Azure Data Fundamentals (DP-900)
@@ -96,9 +97,9 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 ---
 
-## GitHub activity
+## 📈 GitHub activity
 
-> Actively building. Repos going live throughout May–June 2025. Watch this space or [reach out](mailto:pulkitkushwahadev@gmail.com) if you'd like to connect.
+> Actively building — repos updated daily. The portfolio covers the full production AI engineering stack: evaluation, security, advanced retrieval, agentic orchestration, and guardrails.
 
 ---
 
