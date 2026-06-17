@@ -29,12 +29,12 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 | Area | Repo | Status |
 |---|---|---|
 | 🔐 LLM Security & Threat Modeling | [`llm-security-playbook`](https://github.com/pulkitkushwaha/llm-security-playbook) | ✅ Available |
-| 📊 LLM Evaluation Framework | [`llm-eval-framework`](https://github.com/pulkitkushwaha/llm-eval-framework) | ✅ Complete |
-| 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/pulkitkushwaha/rag-pipeline) | 🟡 In progress |
-| 🤖 Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/pulkitkushwaha/multi-agent-system) | 🟡 In progress |
-| 🛡️ LLM Guardrails & Output Validation | [`llm-guardrails`](https://github.com/pulkitkushwaha/llm-guardrails) | 🟡 In progress |
-| 🚀 Production RAG API | [`production-rag-api`](https://github.com/pulkitkushwaha/production-rag-api) | ⬜ Coming soon |
-| 🏆 Enterprise RAG System (capstone) | [`enterprise-rag-system`](https://github.com/pulkitkushwaha/enterprise-rag-system) | ⬜ Coming soon |
+| 📊 LLM Evaluation Framework | [`llm-eval-framework`](https://github.com/pulkitkushwaha/llm-eval-framework) | ✅ Available |
+| 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/pulkitkushwaha/rag-pipeline) | ✅ Available |
+| 🤖 Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/pulkitkushwaha/multi-agent-system) | ✅ Available |
+| 🛡️ LLM Guardrails & Output Validation | [`llm-guardrails`](https://github.com/pulkitkushwaha/llm-guardrails) | ✅ Available |
+| 🚀 Production RAG API | [`production-rag-api`](https://github.com/pulkitkushwaha/production-rag-api) | ✅ Available |
+| 🏆 Enterprise RAG System (capstone) | [`enterprise-rag-system`](https://github.com/pulkitkushwaha/enterprise-rag-system) | ✅ Available |
 
 ---
 
