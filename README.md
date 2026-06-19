@@ -71,7 +71,7 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 ---
 
 ### RAG Chatbot for Product Search
-> PoC RAG chatbot using open-source LLMs (HuggingFace), FAISS, LangChain, and Azure AI Search. Focused on chunking strategies, embedding pipeline design, and retrieval tuning.
+> PoC RAG chatbot using open-source LLMs (HuggingFace), FAISS, LangChain, and Azure AI Search. Focused on chunking strategies, embedding pipeline design, and retrieval tuning. Worked with local llms hosted on Ollama, built the solution locally.
 
 ---
 
