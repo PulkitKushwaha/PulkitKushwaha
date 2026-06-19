@@ -18,7 +18,7 @@
 
 I'm an AI Engineer with 3+ years of experience shipping enterprise Generative AI systems: from multi-agent complaint screening platforms to RAG-based knowledge management at scale (50K+ documents). I work across the full stack of LLM engineering: retrieval architecture, agent orchestration, structured outputs, threat modeling, and production observability.
 
-I care about the parts most engineers skip: eval metrics, failure modes, guardrails, and monitoring — because that's where production AI systems actually break.
+I care about the parts most engineers skip: eval metrics, failure modes, guardrails, and monitoring, because that's where production AI systems actually break.
 
 Currently building out this portfolio to cover the areas I'm most obsessed with: advanced RAG patterns, agentic AI with LangGraph, LLM security, and evaluation frameworks.
 
