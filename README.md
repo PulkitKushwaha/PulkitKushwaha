@@ -77,11 +77,11 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 ## 📌 Areas I go deep on
 
-- **Advanced RAG** — HyDE, reranking, metadata filtering, GraphRAG-lite, multi-doc retrieval
-- **Agentic AI** — LangGraph orchestration, planner/retriever/synthesizer agents, agent memory, failure modes
-- **LLM Security** — Prompt injection (direct + indirect), OWASP LLM Top 10, system prompt extraction, red-teaming, mitigation patterns
-- **Eval & Observability** — Custom metrics, RAGAS integration, CI/CD eval gates, failure analysis
-- **LLM Guardrails** — PII detection + redaction, toxicity filtering, topic scope validation
+- **Advanced RAG**: HyDE, reranking, metadata filtering, GraphRAG-lite, multi-doc retrieval
+- **Agentic AI**: LangGraph orchestration, planner/retriever/synthesizer agents, agent memory, failure modes
+- **LLM Security**: Prompt injection (direct + indirect), OWASP LLM Top 10, system prompt extraction, red-teaming, mitigation patterns
+- **Eval & Observability**: Custom metrics, RAGAS integration, CI/CD eval gates, failure analysis
+- **LLM Guardrails**: PII detection + redaction, toxicity filtering, topic scope validation
 
 ---
 
@@ -99,7 +99,7 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 ## 📈 GitHub activity
 
-> Actively building — repos updated daily. The portfolio covers the full production AI engineering stack: evaluation, security, advanced retrieval, agentic orchestration, and guardrails.
+> Actively building (repos updated frequently). The portfolio covers the full production AI engineering stack: evaluation, security, advanced retrieval, agentic orchestration, and guardrails.
 
 ---
 
