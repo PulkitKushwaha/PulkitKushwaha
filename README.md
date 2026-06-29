@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Pulkit Kushwaha 👋</h1>
 
 <p align="center">
-  <b>AI Engineer · RAG · Multi-Agent Systems · LLM Security & Eval</b><br/>
-  <i>Building production-grade Generative AI systems that are reliable, observable, and secure</i>
+  <b>Agentic AI Engineer · LangGraph · Multi-Agent Systems · LLM Security & Eval · Data Engineering</b><br/>
+  <i>Building production-grade agentic systems that automate complex enterprise workflows at scale</i>
 </p>
 
 <p align="center">
@@ -16,11 +16,13 @@
 
 ## About me
 
-I'm an AI Engineer with 3+ years of experience shipping enterprise Generative AI systems: from multi-agent complaint screening platforms to RAG-based knowledge management at scale (50K+ documents). I work across the full stack of LLM engineering: retrieval architecture, agent orchestration, structured outputs, threat modeling, and production observability.
+I'm an Agentic AI Engineer with 3+ years shipping production multi-agent systems at enterprise scale. I have built a LangGraph orchestrator-workers pipeline serving 50K+ documents, a human-in-the-loop compliance system executing 2,185 checks per quarter across 95 countries, and so on. I am comfortable with both high-code and low-code architectures, as long as they are challenging.
 
-I care about the parts most engineers skip: eval metrics, failure modes, guardrails, and monitoring, because that's where production AI systems actually break.
+What makes my perspective different si that I understand the full stack that enterprise AI sits on top of: from data pipelines and ETL through to agent orchestration, RAG retrieval, and LLM observability. I've worked with the data infrastructure before building the AI on top of it, which means I know where data breaks, where it's slow, and how to design agents that are actually reliable in production.
 
-Currently building out this portfolio to cover the areas I'm most obsessed with: advanced RAG patterns, agentic AI with LangGraph, LLM security, and evaluation frameworks.
+I also go deep on the parts most engineers skip: LLM security, eval frameworks, failure modes, output validation, and guardrails, because that's where production AI systems actually break.
+
+Currently deep-diving into MCP (Model Context Protocol): the open standard for plug-and-play tool connectivity in agentic systems. See [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol).
 
 ---
 
@@ -28,60 +30,71 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 | Area | Repo | Status |
 |---|---|---|
-| 🔐 LLM Security & Threat Modeling | [`llm-security-playbook`](https://github.com/pulkitkushwaha/llm-security-playbook) | ✅ Available |
-| 📊 LLM Evaluation Framework | [`llm-eval-framework`](https://github.com/pulkitkushwaha/llm-eval-framework) | ✅ Available |
-| 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/pulkitkushwaha/rag-pipeline) | ✅ Available |
-| 🤖 Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/pulkitkushwaha/multi-agent-system) | ✅ Available |
-| 🛡️ LLM Guardrails & Output Validation | [`llm-guardrails`](https://github.com/pulkitkushwaha/llm-guardrails) | ✅ Available |
-| 🚀 Production RAG API | [`production-rag-api`](https://github.com/pulkitkushwaha/production-rag-api) | ✅ Available |
-| 🏆 Enterprise RAG System (capstone) | [`enterprise-rag-system`](https://github.com/pulkitkushwaha/enterprise-rag-system) | ✅ Available |
+| 🤖 MCP Deep Dive | [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol) | 🔄 In progress |
+| 🕸️ Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/PulkitKushwaha/multi-agent-system) | ✅ Available |
+| 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/PulkitKushwaha/rag-pipeline) | ✅ Available |
+| 🚀 Production RAG API (FastAPI) | [`production-rag-api`](https://github.com/PulkitKushwaha/production-rag-api) | ✅ Available |
+| 🏆 Enterprise RAG System (capstone) | [`enterprise-rag-system`](https://github.com/PulkitKushwaha/enterprise-rag-system) | ✅ Available |
+| 🛡️ LLM Guardrails & Output Validation | [`llm-guardrails`](https://github.com/PulkitKushwaha/llm-guardrails) | ✅ Available |
+| 📊 LLM Evaluation Framework | [`llm-eval-framework`](https://github.com/PulkitKushwaha/llm-eval-framework) | ✅ Available |
+| 🔐 LLM Security & Threat Modeling | [`llm-security-playbook`](https://github.com/PulkitKushwaha/llm-security-playbook) | ✅ Available |
 
 ---
 
 ## 🛠️ Tech stack
 
-**LLM & AI**
-`Azure OpenAI` `LangChain` `LangGraph` `FAISS` `Azure AI Search` `Copilot Studio` `Mistral` `HuggingFace` `RAGAS` `Prompt Engineering`
+**Agentic AI**
+`LangGraph` `LangChain` `LangSmith` `MCP (Model Context Protocol)` `ReAct Reasoning` `Parallel Tool Calling` `Human-in-the-Loop Design` `asyncio`
 
-**Data & Engineering**
-`Python` `PySpark` `SQL` `Azure Databricks` `Azure Data Factory` `ETL Pipelines`
+**LLM & Generative AI**
+`Azure OpenAI` `Copilot Studio` `Mistral` `HuggingFace` `FAISS` `Azure AI Search` `RAGAS` `Prompt Engineering`
+
+**APIs & Backend**
+`Python` `FastAPI` `REST APIs`
+
+**Data Engineering & Pipelines**
+`PySpark` `SQL` `Azure Databricks` `Azure Data Factory` `Alteryx` `ETL Pipelines`
+
+**BI & Analytics**
+`Power BI` `Qlik SaaS` `DAX` `Power Query`
 
 **Cloud & DevOps**
-`Azure` `Azure Web Apps` `Azure Monitor` `Azure Blob Storage` `Power Automate` `CI/CD` `Docker`
-
-**Visualization & Analytics**
-`Power BI` `Qlik SaaS` `DAX` `Alteryx`
+`Azure` `Azure Web Apps` `Azure Monitor` `Azure Blob Storage` `Power Automate` `CI/CD` `Docker` `Entra ID`
 
 ---
 
 ## 🏗️ Production projects (at Cognizant)
 
-### AI-Driven Complaint Screening System
-> Multi-agent architecture (Extraction → Classification → Reporting) for automated OIG complaint screening. Built with Microsoft Copilot Studio, Azure OpenAI, and Power Automate. Enforced policy alignment via deterministic rules and strict JSON schemas.
-
-**Impact:** 70–80% reduction in screening time · 60% improvement in classification consistency · 50% reduction in drafting effort
-
----
-
-### Knowledge Management Platform
-> Enterprise RAG platform handling 50K+ documents. RAG-based retrieval and summarization with RBAC, CI/CD, and full Azure Monitor observability.
+### Agentic Knowledge Management Platform
+> Rebuilt a GenAI knowledge platform (50K+ documents) as a stateful **LangGraph** graph with typed `QueryState` — session-aware enrichment node, router node with conditional edges to specialist workers: factual RAG, summarization RAG, and NL2SQL aggregation. Added parallel tool calling via `asyncio.gather` for hybrid queries. Integrated RBAC, CI/CD, and Azure Monitor observability.
 
 **Impact:** 60% reduction in document search time · 40% increase in knowledge reuse
 
 ---
 
-### RAG Chatbot for Product Search
-> PoC RAG chatbot using open-source LLMs (HuggingFace), FAISS, LangChain, and Azure AI Search. Focused on chunking strategies, embedding pipeline design, and retrieval tuning. Worked with local llms hosted on Ollama, built the solution locally.
+### Multi-Country Funding Compliance & Report Generation System
+> Enterprise-scale **human-in-the-loop** compliance system across 95 countries — an orchestrator agent surfaces 23 compliance questions per submission, each dynamically retrieving its document combination from a 19-document knowledge base (SharePoint) and running a dedicated reasoning agent. Separate 9-agent report generation pipeline produces a structured PDF from HTML sections. Built on **Copilot Studio** and **Azure OpenAI**.
+
+**Impact:** ~60% reduction in review time per country · 95+ person-days saved per quarter · Report drafting cut from days to under an hour
+
+---
+
+### AI-Driven Complaint Screening System
+> Stateful 3-node **LangGraph** pipeline (Extraction → Classification → Reporting) for automated OIG complaint screening. Typed `ScreeningState` schema shared across all nodes. Orchestrator LLM dynamically routes to report generation or human review via conditional edges. Strict JSON output contracts at each boundary. Monitored via **LangSmith** tracing.
+
+**Impact:** 70–80% reduction in screening time · ~60% improvement in classification consistency · 50% reduction in drafting effort
 
 ---
 
 ## 📌 Areas I go deep on
 
-- **Advanced RAG**: HyDE, reranking, metadata filtering, GraphRAG-lite, multi-doc retrieval
-- **Agentic AI**: LangGraph orchestration, planner/retriever/synthesizer agents, agent memory, failure modes
+- **Agentic AI**: LangGraph orchestration, orchestrator-workers pattern, ReAct reasoning, parallel tool calling, stateful graph design, human-in-the-loop workflows, agent failure modes
+- **MCP (Model Context Protocol)**: Host/Client/Server architecture, JSON-RPC 2.0, Tools/Resources/Prompts, transport types (stdio vs SSE), adapter patterns
+- **Advanced RAG**: HyDE, reranking, metadata filtering, hybrid retrieval, query enrichment, multi-doc retrieval, NL2SQL
 - **LLM Security**: Prompt injection (direct + indirect), OWASP LLM Top 10, system prompt extraction, red-teaming, mitigation patterns
-- **Eval & Observability**: Custom metrics, RAGAS integration, CI/CD eval gates, failure analysis
-- **LLM Guardrails**: PII detection + redaction, toxicity filtering, topic scope validation
+- **Eval & Observability**: LangSmith tracing, RAGAS integration, custom eval metrics, CI/CD eval gates, failure mode detection, output schema validation
+- **LLM Guardrails**: PII detection + redaction, toxicity filtering, topic scope validation, structured output enforcement
+- **Data Architecture**: End-to-end pipeline design — from ETL and data transformation through to AI retrieval and agent orchestration; understanding where data breaks in production
 
 ---
 
@@ -99,7 +112,7 @@ Currently building out this portfolio to cover the areas I'm most obsessed with:
 
 ## 📈 GitHub activity
 
-> Actively building (repos updated frequently). The portfolio covers the full production AI engineering stack: evaluation, security, advanced retrieval, agentic orchestration, and guardrails.
+> Actively building — the portfolio covers the full production agentic AI stack: orchestration, MCP, advanced retrieval, evaluation, security, and guardrails. The [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol) repo is a structured deep-dive updated as I go.
 
 ---
 
