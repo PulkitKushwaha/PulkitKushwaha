@@ -18,7 +18,7 @@
 
 I'm an Agentic AI Engineer with 3+ years shipping production multi-agent systems at enterprise scale. I have built a LangGraph orchestrator-workers pipeline serving 50K+ documents, a human-in-the-loop compliance system executing 2,185 checks per quarter across 95 countries, and so on. I am comfortable with both high-code and low-code architectures, as long as they are challenging.
 
-What makes my perspective different si that I understand the full stack that enterprise AI sits on top of: from data pipelines and ETL through to agent orchestration, RAG retrieval, and LLM observability. I've worked with the data infrastructure before building the AI on top of it, which means I know where data breaks, where it's slow, and how to design agents that are actually reliable in production.
+What makes my perspective different is that I understand the full stack that enterprise AI sits on top of: from data pipelines and ETL through to agent orchestration, RAG retrieval, and LLM observability. I've worked with the data infrastructure before building the AI on top of it, which means I know where data breaks, where it's slow, and how to design agents that are actually reliable in production.
 
 I also go deep on the parts most engineers skip: LLM security, eval frameworks, failure modes, output validation, and guardrails, because that's where production AI systems actually break.
 
@@ -31,6 +31,7 @@ Currently deep-diving into MCP (Model Context Protocol): the open standard for p
 | Area | Repo | Status |
 |---|---|---|
 | 🤖 MCP Deep Dive | [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol) | 🔄 In progress |
+| 📄 Agentic Documentation Generator | [`autodoc-agent`](https://github.com/PulkitKushwaha/autodoc-agent) | ✅ Available |
 | 🕸️ Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/PulkitKushwaha/multi-agent-system) | ✅ Available |
 | 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/PulkitKushwaha/rag-pipeline) | ✅ Available |
 | 🚀 Production RAG API (FastAPI) | [`production-rag-api`](https://github.com/PulkitKushwaha/production-rag-api) | ✅ Available |
@@ -63,7 +64,7 @@ Currently deep-diving into MCP (Model Context Protocol): the open standard for p
 
 ---
 
-## 🏗️ Production projects (at Cognizant)
+## 🏗️ Production projects
 
 ### Agentic Knowledge Management Platform
 > Rebuilt a GenAI knowledge platform (50K+ documents) as a stateful **LangGraph** graph with typed `QueryState` — session-aware enrichment node, router node with conditional edges to specialist workers: factual RAG, summarization RAG, and NL2SQL aggregation. Added parallel tool calling via `asyncio.gather` for hybrid queries. Integrated RBAC, CI/CD, and Azure Monitor observability.
@@ -86,9 +87,22 @@ Currently deep-diving into MCP (Model Context Protocol): the open standard for p
 
 ---
 
+## 🧪 Portfolio projects
+
+### AutoDoc-Agent — Agentic Technical Documentation Generator
+> Multi-agent documentation system built on **LangGraph** that ingests any Python codebase and produces professional technical documentation. A planner agent reads a structured `CodebaseManifest` (produced by an AST-based ingestion engine) and delegates to five specialist writer agents — architecture, API reference, data models, authentication, and deployment — each rendering a **Jinja2** prompt template with real manifest data before calling **Claude** (Anthropic). A critic agent then scores all five sections 1–10 in one LLM call, returning structured JSON; sections below the quality threshold are sent back to their writer with specific critique injected into the revision prompt. The loop is capped at two rounds. Final output rendered as Markdown, a static HTML site, and PDF via **WeasyPrint**. Full strategy-pattern LLM abstraction — one env var switches between mock and real Claude, zero code changes.
+
+**Stack:** LangGraph · Anthropic Claude · Pydantic v2 · Jinja2 · Typer · WeasyPrint · Python AST (stdlib) · uv
+
+**Patterns demonstrated:** orchestrator-workers · conditional edges · iterative self-evaluation loop · strategy pattern · typed state contracts · Jinja2 prompt templates · multi-format rendering
+
+[`autodoc-agent`](https://github.com/PulkitKushwaha/autodoc-agent)
+
+---
+
 ## 📌 Areas I go deep on
 
-- **Agentic AI**: LangGraph orchestration, orchestrator-workers pattern, ReAct reasoning, parallel tool calling, stateful graph design, human-in-the-loop workflows, agent failure modes
+- **Agentic AI**: LangGraph orchestration, orchestrator-workers pattern, ReAct reasoning, parallel tool calling, stateful graph design, human-in-the-loop workflows, iterative self-evaluation loops, conditional edges, agent failure modes
 - **MCP (Model Context Protocol)**: Host/Client/Server architecture, JSON-RPC 2.0, Tools/Resources/Prompts, transport types (stdio vs SSE), adapter patterns
 - **Advanced RAG**: HyDE, reranking, metadata filtering, hybrid retrieval, query enrichment, multi-doc retrieval, NL2SQL
 - **LLM Security**: Prompt injection (direct + indirect), OWASP LLM Top 10, system prompt extraction, red-teaming, mitigation patterns
