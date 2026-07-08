@@ -22,7 +22,7 @@ What makes my perspective different is that I understand the full stack that ent
 
 I also go deep on the parts most engineers skip: LLM security, eval frameworks, failure modes, output validation, and guardrails, because that's where production AI systems actually break.
 
-Currently deep-diving into MCP (Model Context Protocol): the open standard for plug-and-play tool connectivity in agentic systems. See [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol).
+Currently deep-diving into MCP (Model Context Protocol): the open standard for plug-and-play tool connectivity in agentic systems and catching up with "Agent Skills". See [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol).
 
 ---
 
