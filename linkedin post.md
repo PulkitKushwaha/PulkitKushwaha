@@ -1,52 +1,102 @@
-I gave my AI agent access to everything. It still got the job completely wrong.
+🚨 One of the biggest misconceptions in AI:
 
-I once spent a day debugging an agent that had full access to our database but kept formatting the output wrong.
+GPT was never meant to become ChatGPT.
 
-MCP was set up perfectly. The agent could query anything it needed. But every report came out broken with either wrong file path, or wrong naming convention, or wrong library.
+Looking back, it's easy to assume OpenAI always had a grand master plan.
 
-Turns out I had given it a key to the building but no idea how things worked inside.
+Build GPT.
+Scale GPT.
+Turn it into ChatGPT.
+Change the world.
 
-That’s the difference between MCP and Agent Skills. And it took me an embarrassingly long time to figure out they’re not competing; they never were.
+But that's not what happened.
 
-🔴 THE CONFUSION
+The original GPT wasn't created to become:
 
-Everyone’s talking about MCP vs Agent Skills like it’s a rivalry. Pick one. The other will die.
+❌ A chatbot
+❌ A coding assistant
+❌ A writing assistant
+❌ A digital coworker
+❌ The fastest-growing consumer application in history
 
-It’s not. They solve completely different problems at completely different layers of your agent stack. Conflating them is like arguing whether your car needs an engine or a GPS. It needs both. For very different reasons.
+Instead, researchers were trying to answer a much simpler question:
 
-🟢 HERE’S THE ACTUAL DIFFERENCE
+"What happens if we train a model to predict the next word on a massive amount of text?"
 
-MCP (Model Context Protocol) is the nervous system.
+That's it.
 
-It’s how your agent connects to the outside world like databases, APIs, GitHub, Slack, Notion. Before MCP, every integration was custom. Now it’s one standard protocol. Any tool. Any agent. No repetitive integration work.
+At first glance, it sounds almost underwhelming. Like seriuosly? Predict the next word? Not solve mathematics? Not try to reason? Not answer questions? Not write code? Just predict what comes next?
 
-That’s why it hit 97 million monthly SDK downloads in just 16 months (faster than Kubernetes reached comparable adoption btw). In December 2025, Anthropic donated it to the Linux Foundation. OpenAI, Google, Microsoft, AWS all signed on. It’s no longer Anthropic’s protocol. It’s the industry’s.
+Many people would look at that objective and think:
 
-Agent Skills are the playbooks.
+"Interesting experiment, but surely that can't lead to intelligence."
 
-They tell your agent how to behave once it gets there, like which libraries to use, where to save files, what naming conventions to follow, what always breaks on the last day of the month. A Skill is just a SKILL.md file your agent reads before doing anything. Lightweight. Portable. Works across Claude Code, Copilot Studio, Cursor, Gemini CLI; same file, every platform.
+Yet that assumption turned out to be wrong, because predicting the next word is much harder than it sounds.
 
-MCP gives your agent access.
-Skills give your agent judgment.
+To do it consistently, a model gradually needs to learn:
 
-Your agent needs both. Always.
+• Grammar
 
-💡 THE ANALOGY THAT MADE IT CLICK
+• Context
 
-Imagine hiring a brilliant engineer on day one.
+• Writing styles
 
-MCP = their key card. Access to the codebase, databases, Slack, everything.
-Skills = your team’s internal wiki. How things actually work here. The unwritten rules. The three gotchas nobody documented.
+• Relationships between concepts
 
-Key card without the wiki? They’ll break things.
-Wiki without the key card? They can’t do anything.
+• Facts about the world
 
-Production-grade agents need both. MCP for the data pipes, Skills for the execution logic.
+• Patterns hidden inside human language
 
-If you’re only using one, you’re building half an agent.
+Consider a sentence like:
 
-Wrote a full breakdown on my blog including decision framework, real examples, and the context window problem nobody warns you about. Link in the comments. 👇
+"The Eiffel Tower is located in ____"
 
-#AI #AIAgents #MCP #AgentSkills #AIEngineering #BuildingWithAI #CopilotStudio
+To predict the next word correctly, the model needs more than language. It needs knowledge.
 
-Article: [https://pulkitkushwaha.hashnode.dev/mcp-vs-agent-skills-they-re-not-competing-you-re-just-using-both-wrong?utm_source=hashnode&utm_medium=feed]
+Now multiply that process billions of times across books, websites, articles, discussions, and documents, and something interesting starts to happen.
+
+The model begins building representations of the world hidden inside language, and that's where the story gets fascinating.
+
+Researchers weren't explicitly teaching it:
+
+✅ Programming
+✅ Translation
+✅ Summarization
+✅ Question Answering
+✅ Writing
+
+Yet larger models gradually began demonstrating those capabilities.
+
+The gap between the training objective and the resulting behavior kept growing.
+
+What started as a language-learning experiment slowly became something much bigger.
+
+In hindsight, ChatGPT feels inevitable, but at the time, nobody was saying:
+
+"Next-word prediction will fundamentally change how humans interact with computers."
+
+People were simply exploring an idea. A research question. A hypothesis.
+
+That's one of my favorite things about technology.
+
+Many breakthroughs don't begin with people trying to build world-changing products.
+
+They begin with curiosity.
+
+Researchers ask a simple question. They follow it further than anyone else, and sometimes the answer ends up reshaping an entire industry.
+
+ChatGPT wasn't the original destination. It was a consequence.
+
+💭 If you had read the original GPT paper in 2018, would you have predicted that a next-word prediction model would eventually become one of the most influential technologies on the planet?
+
+
+I recently did a deeper dive into this topic and explored:
+
+• Why GPT was originally created
+• The idea of generative pre-training
+• Why next-word prediction turned out to be so powerful
+• The unexpected path from GPT to ChatGPT
+
+#ai #machinelearning #gpt3 #transformers #llms #nlp #deeplearning #generativeai
+
+Article: [https://pulkitkushwaha.hashnode.dev/gpt-was-never-meant-to-become-chatgpt?utm_source=hashnode&utm_medium=feed]
