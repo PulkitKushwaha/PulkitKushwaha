@@ -31,6 +31,7 @@ Currently deep-diving into MCP (Model Context Protocol): the open standard for p
 | Area | Repo | Status |
 |---|---|---|
 | 🤖 MCP Deep Dive | [`model-context-protocol`](https://github.com/PulkitKushwaha/model-context-protocol) | 🔄 In progress |
+| 🛡️ Conversational Threat Intelligence Agent | [`threat-intel-agent`](https://github.com/PulkitKushwaha/threat-intel-agent) | ✅ Available |
 | 📄 Agentic Documentation Generator | [`autodoc-agent`](https://github.com/PulkitKushwaha/autodoc-agent) | ✅ Available |
 | 🕸️ Multi-Agent System (LangGraph) | [`multi-agent-system`](https://github.com/PulkitKushwaha/multi-agent-system) | ✅ Available |
 | 🔍 Advanced RAG Pipeline | [`rag-pipeline`](https://github.com/PulkitKushwaha/rag-pipeline) | ✅ Available |
@@ -97,6 +98,17 @@ Currently deep-diving into MCP (Model Context Protocol): the open standard for p
 **Patterns demonstrated:** orchestrator-workers · conditional edges · iterative self-evaluation loop · strategy pattern · typed state contracts · Jinja2 prompt templates · multi-format rendering
 
 [`autodoc-agent`](https://github.com/PulkitKushwaha/autodoc-agent)
+
+---
+
+### Conversational Threat Intelligence Agent
+> Agentic SOC assistant built on **LangGraph** that lets a security analyst investigate threats in plain English. A typed `AgentState` flows through a `guard → router → tools → synth` graph: a security guard node classifies each message (safe / greeting / injection / out-of-scope) before a **structured-output** router (Azure OpenAI + Pydantic schema) classifies intent and extracts indicators — making invalid intents structurally impossible. The router dispatches to four specialist tools — **IOC reputation** (VirusTotal + AbuseIPDB + AlienVault OTX), **actor/TTP** lookup (MITRE ATT&CK KB), **CVE exposure** (NVD), and **entity pivoting** (VirusTotal relationships) — correlating multi-source results into a single, source-cited verdict with a confidence score. Multi-turn context is handled by two memory layers (entity memory + a rolling history window), and injection defense is layered: keyword pre-filter → LLM classifier → untrusted-data sanitizer, with **fail-closed** behavior. Every step is traced live in the Streamlit UI.
+
+**Stack:** LangGraph · Azure OpenAI (structured outputs) · Pydantic · Streamlit · VirusTotal / AbuseIPDB / OTX / NVD APIs · MITRE ATT&CK
+
+**Patterns demonstrated:** typed state graph · structured-output routing · multi-source correlation · multi-turn memory · layered prompt-injection defense (direct + indirect) · scope control · confidence scoring · execution tracing · eval harness
+
+[`threat-intel-agent`](https://github.com/PulkitKushwaha/threat-intel-agent)
 
 ---
 
