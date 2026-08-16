@@ -1,116 +1,105 @@
-💡 The question was never the problem.
+2023: Prompt Engineering
+2024: RAG & Context Engineering
+2025: Agentic AI
+2026: Graph Engineering?
 
-The missing information was.
+Looking back at the evolution of AI applications over the last few years, I've noticed an interesting pattern.
 
-When ChatGPT first became popular, prompt engineering felt almost magical.
+Each stage solved a different problem.
 
-A small change in wording could completely transform the quality of a response.
+✅ Prompt Engineering taught us how to ask better questions.
 
-People discovered:
+The focus was on: • Instructions
+ • Reasoning techniques
+ • Role prompting
+ • Output formatting
 
-✅ Role prompting
-✅ Few-shot examples
-✅ Structured instructions
-✅ Chain-of-thought prompting
+✅ Context Engineering taught us how to give AI better information.
 
-And for a while, it felt like the future belonged to people who knew how to ask better questions.
+This led to the rise of: • RAG
+ • Vector databases
+ • Knowledge bases
+ • Semantic search
+ • Memory systems
 
-But the more enterprise AI systems I work on, the more I notice a different pattern.
+The realization was simple:
 
-Many AI failures aren't caused by bad prompts.
+A smarter prompt can't compensate for missing information.
 
-They're caused by missing context.
+✅ Agentic AI introduced planning, tool usage, and decision-making.
 
-🤔 Think about it this way.
+AI systems started interacting with: • APIs
+ • Databases
+ • Search engines
+ • Enterprise systems
 
-Imagine interviewing two candidates for the same role.
+The focus shifted from answering questions to accomplishing tasks.
 
-You ask both candidates the exact same question.
+✅ Graph Engineering is where I think things get really interesting.
 
-Candidate A has access to:
+The question is no longer:
 
-📚 Company documentation
-📊 Historical decisions
-👥 Customer information
-⚙️ Internal processes
-📝 Project context
+"How do I prompt the AI?"
 
-Candidate B walks into the room knowing almost nothing.
+Or even:
 
-Same question.
+"How do I provide context?"
 
-Same intelligence.
+Instead:
 
-Different information.
+"How should work move through the system?"
 
-Who gives the better answer?
+Modern AI systems are increasingly becoming networks of:
 
-Most of us know the answer immediately.
+ • Planners
+ • Researchers
+ • Validators
+ • Memory systems
+ • Human approvals
 
-The quality of the response depends not only on the question but also on the information available before answering.
+At that point, the model is no longer the product.
 
-Modern AI systems behave in a surprisingly similar way.
+The workflow becomes the product.
 
-I've seen situations where teams:
+One of the most interesting realizations I've had while learning and building with RAG, LangGraph, MCP, and agentic systems is that many production challenges are not model problems.
 
-🔄 Switched models
-✍️ Rewrote prompts
-📈 Increased context windows
-🧪 Tried new prompting techniques
+They're workflow problems.
 
-...while the actual problem was that the model simply didn't have access to the right information.
+Questions like:
 
-The relevant document wasn't retrieved.
-The knowledge base wasn't updated.
-The user's context wasn't available.
-The correct data was never surfaced.
+ • What happens when retrieval fails?
+ • How do we validate outputs?
+ • When should a human be involved?
+ • How should multiple agents collaborate?
+ • How do we handle low-confidence answers?
 
-In those situations, improving the prompt usually produces incremental gains.
+These are architecture questions.
 
-Improving the context can completely change the outcome.
+Not prompt questions.
 
-🚀 That's why I think an important shift is happening in AI.
+Maybe the future AI engineer looks less like a prompt writer and more like a systems architect.
 
-For the last few years, we've been heavily focused on Prompt Engineering.
+Someone who understands:
 
-Increasingly, I believe the more valuable skill is becoming Context Engineering.
+• Memory
+ • State
+ • Orchestration
+ • Evaluation
+ • Human-in-the-loop systems
+ • Multi-agent workflows
 
-Not:
+In other words:
 
-❓ "How should we ask the model?"
+Models generate intelligence.
 
-But:
+Graphs organize intelligence.
 
-✅ "What should the model know before it answers?"
+I recently explored this idea in much more detail in a Hashnode article.
 
-That question touches:
+🔗 Link in the comments.
 
-🔹 Retrieval
-🔹 Memory
-🔹 Knowledge Bases
-🔹 User History
-🔹 Tool Outputs
-🔹 Metadata
-🔹 Information Architecture
+Curious to hear your thoughts:
 
-In other words, it touches the entire ecosystem surrounding the model.
+What do you think will be the next major skill for AI engineers over the next few years?
 
-And as models continue getting smarter, that ecosystem becomes even more important.
-
-The AI industry spent years learning how to ask better questions.
-
-It may spend the next decade learning how to provide better context.
-
-💭 As AI models continue improving, what do you think will become the bigger differentiator: better prompts or better context?
-
-#AI #GenerativeAI #LLM #AIResearch #AgenticAI #MachineLearning #SoftwareArchitecture #DataScience #MachineLearning #DataEngineering
-
-I recently explored this idea in a longer article and discussed:
-
-📌 Why prompt engineering became so important
-📌 How RAG changed the conversation
-📌 Why AI agents make context even more valuable
-📌 The difference between prompting and context engineering
-📌 Why information architecture may become a competitive advantage in AI
-
-🔗 https://pulkitkushwaha.hashnode.dev/the-most-underrated-skill-in-ai-isn-t-prompt-engineering
+#AI #AIEngineering #AgenticAI #GraphEngineering #LangGraph #LLMs #RAG #SoftwareArchitecture #GenerativeAI
