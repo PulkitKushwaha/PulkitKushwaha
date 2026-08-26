@@ -1,105 +1,64 @@
-2023: Prompt Engineering
-2024: RAG & Context Engineering
-2025: Agentic AI
-2026: Graph Engineering?
+I thought DSA and AI were unrelated. I was wrong.
 
-Looking back at the evolution of AI applications over the last few years, I've noticed an interesting pattern.
+Over the past few months, I've been doing two things in parallel:
 
-Each stage solved a different problem.
+✅ Solving LeetCode and revisiting Data Structures & Algorithms
 
-✅ Prompt Engineering taught us how to ask better questions.
+✅ Building GenAI and Agentic AI systems
 
-The focus was on: • Instructions
- • Reasoning techniques
- • Role prompting
- • Output formatting
+At first, they felt like completely different worlds.
 
-✅ Context Engineering taught us how to give AI better information.
+Then I started noticing the same patterns everywhere.
 
-This led to the rise of: • RAG
- • Vector databases
- • Knowledge bases
- • Semantic search
- • Memory systems
+🧠 Agent Memory → Hash Maps
 
-The realization was simple:
+🌐 Multi-Agent Workflows → Graphs
 
-A smarter prompt can't compensate for missing information.
+🪟 LLM Context Management → Sliding Windows
 
-✅ Agentic AI introduced planning, tool usage, and decision-making.
+🔥 RAG Retrieval & Ranking → Heaps
 
-AI systems started interacting with: • APIs
- • Databases
- • Search engines
- • Enterprise systems
+⏳ AI Pipelines → Queues
 
-The focus shifted from answering questions to accomplishing tasks.
+🌲 Structured Reasoning → Trees
 
-✅ Graph Engineering is where I think things get really interesting.
+🔍 Validation & Tracking → Sets
 
-The question is no longer:
+📚 Tool Execution Flow → Stacks
 
-"How do I prompt the AI?"
+🔎 Model & Retrieval Tuning → Binary Search
 
-Or even:
+The more AI systems I build, the more I realize:
 
-"How do I provide context?"
+The "AI" part gets the attention.
+ The data structures do the heavy lifting.
 
-Instead:
+When people think about becoming an AI Engineer, they often focus on:
 
-"How should work move through the system?"
+LLMs
+Prompt Engineering
+RAG
+Agents
+Frameworks
 
-Modern AI systems are increasingly becoming networks of:
+Those matter.
 
- • Planners
- • Researchers
- • Validators
- • Memory systems
- • Human approvals
+But underneath most production AI systems are concepts we've been teaching in Computer Science for decades.
 
-At that point, the model is no longer the product.
+That's why my current learning routine looks something like this:
 
-The workflow becomes the product.
+Morning: ✅ Solve a DSA problem
 
-One of the most interesting realizations I've had while learning and building with RAG, LangGraph, MCP, and agentic systems is that many production challenges are not model problems.
+Afternoon: ✅ Build AI systems
 
-They're workflow problems.
+Evening: ✅ Realize today's DSA concept was hiding inside the AI system all along
 
-Questions like:
+The future AI engineer won't just understand models.
 
- • What happens when retrieval fails?
- • How do we validate outputs?
- • When should a human be involved?
- • How should multiple agents collaborate?
- • How do we handle low-confidence answers?
+They'll understand the systems, workflows, and data structures that make those models useful.
 
-These are architecture questions.
+I've attached a visual mind map showing how common DSA concepts appear in modern Generative AI and Agentic AI systems.
 
-Not prompt questions.
+If you're learning AI today, don't skip the fundamentals.
 
-Maybe the future AI engineer looks less like a prompt writer and more like a systems architect.
-
-Someone who understands:
-
-• Memory
- • State
- • Orchestration
- • Evaluation
- • Human-in-the-loop systems
- • Multi-agent workflows
-
-In other words:
-
-Models generate intelligence.
-
-Graphs organize intelligence.
-
-I recently explored this idea in much more detail in a Hashnode article.
-
-🔗 Link in the comments.
-
-Curious to hear your thoughts:
-
-What do you think will be the next major skill for AI engineers over the next few years?
-
-#AI #AIEngineering #AgenticAI #GraphEngineering #LangGraph #LLMs #RAG #SoftwareArchitecture #GenerativeAI
+You'll probably meet them again sooner than you think.
