@@ -1,111 +1,49 @@
-🏆 The AI industry is obsessed with choosing the best model.
+When I started learning AI, I thought I was behind because I wasn't learning the latest framework.
 
-I think most teams are optimizing the wrong thing.
+Turns out, I was worried about the wrong thing.
 
-GPT vs Claude.
+Over the last year, I've realized something:
 
-Claude vs Gemini.
+The biggest gap between AI demos and AI products isn't the model.
 
-Gemini vs Llama.
+It's everything around the model.
 
-Every new release brings fresh benchmark comparisons, leaderboard updates, and debates about which model is "best."
+You can build an agent in an afternoon.
 
-And to be fair, model choice matters.
+But production AI requires:
 
-But after working on enterprise AI systems, I've noticed something surprising.
+✅ Python
 
-Many AI projects don't fail because of the model.
+✅ APIs
 
-They fail because of everything around the model.
+✅ Git
 
-A team deploys an AI assistant.
+✅ Databases
 
-Users complain about poor answers.
+✅ Cloud
 
-The immediate reaction is predictable:
+✅ Data Structures
 
-🔄 Try a new model
+✅ System Design
 
-✍️ Rewrite the prompt
+✅ Evaluation
 
-⚙️ Adjust parameters
+✅ Monitoring
 
-📈 Increase the context window
+✅ Security
 
-Weeks later, the real problem is discovered.
+The funny part?
 
-📄 The relevant documents weren't being retrieved.
+Most of the things helping me build better AI systems today existed long before ChatGPT.
 
-📚 The knowledge base was outdated.
+LLMs are the newest piece of the puzzle.
 
-🏷️ Metadata was missing.
+Not the whole puzzle.
 
-🔐 Permissions were incorrect.
+I've attached a roadmap showing the skills that I keep seeing across RAG, Agentic AI, and GenAI projects.
 
-The model wasn't the bottleneck.
+If I could restart my AI journey today, I'd spend less time chasing frameworks and more time strengthening fundamentals.
 
-The information system was.
+Because frameworks change.
 
-🏎️ Think about a race car.
-
-The engine matters.
-
-But nobody wins races because of the engine alone.
-
-Tires matter.
-
-Aerodynamics matter.
-
-Strategy matters.
-
-Pit crews matter.
-
-The entire system matters.
-
-Modern AI works the same way.
-
-A powerful model receiving irrelevant information often produces poor answers.
-
-A slightly weaker model receiving the right information often produces excellent answers.
-
-That's why I think an important shift is happening in AI.
-
-We're moving from asking:
-
-❓ "Which model should we use?"
-
-to
-
-✅ "How well does information flow through our system?"
-
-Because users never experience benchmark scores.
-
-They experience outcomes.
-
-And outcomes are produced by systems, not models.
-
-💭 If you had to choose, would you trust:
-
-A) The strongest model with weak retrieval and poor information quality
-
-or
-
-B) A slightly weaker model with excellent data, retrieval, and evaluation systems
-
-Which would you deploy in production?
-
-#ArtificialIntelligence #GenerativeAI #AIEngineering #LLM #RAG #EnterpriseAI #MachineLearning #DataEngineering #AIAgents #TechLeadership
-
-I recently wrote about this idea in more detail and explored:
-
-✅ Why benchmark comparisons can be misleading
-
-✅ How RAG changed where value is created
-
-✅ Why users experience systems, not models
-
-✅ The role of information architecture in AI success
-
-✅ Why many AI failures are actually information failures
-
-🔗 https://pulkitkushwaha.hashnode.dev/the-most-important-decision-in-ai-isn-t-choosing-the-model
+Principles don't.
