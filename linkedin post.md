@@ -1,64 +1,57 @@
-I thought DSA and AI were unrelated. I was wrong.
+🚀 The biggest misconception I had about AI was thinking the model was the system.
 
-Over the past few months, I've been doing two things in parallel:
+For a long time, I imagined something like this:
 
-✅ Solving LeetCode and revisiting Data Structures & Algorithms
+Question → AI Model → Answer
 
-✅ Building GenAI and Agentic AI systems
+Simple.
 
-At first, they felt like completely different worlds.
+The more I learn about AI Engineering and build GenAI & Agentic AI systems, the more I realize that's rarely what happens.
 
-Then I started noticing the same patterns everywhere.
+Behind a single prompt, an entire workflow comes to life.
 
-🧠 Agent Memory → Hash Maps
+⚡ The question gets broken into tokens.
 
-🌐 Multi-Agent Workflows → Graphs
+🧠 Meaning gets converted into vectors.
 
-🪟 LLM Context Management → Sliding Windows
+🔍 Relevant knowledge gets retrieved.
 
-🔥 RAG Retrieval & Ranking → Heaps
+📚 Context gets assembled.
 
-⏳ AI Pipelines → Queues
+🤖 The LLM analyzes and reasons.
 
-🌲 Structured Reasoning → Trees
+🛠️ Tools and APIs may be called.
 
-🔍 Validation & Tracking → Sets
+💾 Memory gets updated.
 
-📚 Tool Execution Flow → Stacks
+✅ The final response is generated.
 
-🔎 Model & Retrieval Tuning → Binary Search
+All of this often happens in just a few seconds.
 
-The more AI systems I build, the more I realize:
+What fascinates me most is that the answer is usually the visible part of the system.
 
-The "AI" part gets the attention.
- The data structures do the heavy lifting.
+The real engineering challenge lies in everything happening behind the scenes.
 
-When people think about becoming an AI Engineer, they often focus on:
+The retrieval strategy.
 
-LLMs
-Prompt Engineering
-RAG
-Agents
-Frameworks
+The context management.
 
-Those matter.
+The memory architecture.
 
-But underneath most production AI systems are concepts we've been teaching in Computer Science for decades.
+The orchestration logic.
 
-That's why my current learning routine looks something like this:
+The evaluation and guardrails.
 
-Morning: ✅ Solve a DSA problem
+The observability.
 
-Afternoon: ✅ Build AI systems
+The model is critical.
 
-Evening: ✅ Realize today's DSA concept was hiding inside the AI system all along
+But the model is only one component in a much larger ecosystem.
 
-The future AI engineer won't just understand models.
+📊 I created a visual showing the 9-Step Journey of Every AI Prompt from the moment you hit Enter to the moment a response appears on your screen.
 
-They'll understand the systems, workflows, and data structures that make those models useful.
+The more I learn about AI, the more I appreciate that modern AI systems are not just models.
 
-I've attached a visual mind map showing how common DSA concepts appear in modern Generative AI and Agentic AI systems.
+They're carefully engineered workflows.
 
-If you're learning AI today, don't skip the fundamentals.
-
-You'll probably meet them again sooner than you think.
+💡 The prompt is only the beginning of the journey.
